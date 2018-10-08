@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="login-box-msg">Welcom to IAT Inventory Mangment System</p>
 
                     <div style="text-align: center;font-weight:bold;padding-bottom: 5px;">Please Login!!!</div>
-                                <form action="<?php echo base_url();?>admin/index" method="post">
+                                <form action="<?php echo base_url();?>dashbord" method="post">
                     <div class="form-group has-feedback">
                         <input type="email" name="email" class="form-control" placeholder="Email">
                         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
