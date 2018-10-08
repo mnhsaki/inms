@@ -11,51 +11,70 @@
 							<div class="col-md-2">
 							<div class="form-group has-feedback">
 								<div id="select_box">
-									<label>Client<sup>*</sup></label>
+									<label>Div<span style="color:red;"> * </span></label>
 									<select required="" id="cst_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="customer_id" tabindex="-1" aria-hidden="true">
-										<option selected="" disabled="">---</option>
-										<option value="">Clint</option>
-										<option value="">Clint</option>
-										<option value="">Clint</option>
+										<option selected="" disabled="">Select Div</option>
+										<option value="">In Side Dhaka</option>
+										<option value="">Out Side Dhaka</option>
 									</select>
 								</div>
 							</div>
 							</div>
-							<div class="col-md-4">
-								<div class="form-group has-feedback">
-									<label>Client Name<span style="color:red;"> * </span><a href="http://localhost/inms/add_new_client"><button type="button" data-toggle="modal" data-target="" class="btn btn-xs btn-success pull-right"> <i class="fa fa-plus"></i>&nbsp;New
-												Client?</button></a></label>
-									<div class="search">
-										<span class="fa fa-search" style="    position: absolute;top: 8px;left: 10px;"></span>
-										<input value="" id="clientName" class="form-control required_fields ui-autocomplete-input" placeholder="Client Name" autocomplete="off">
-									</div> <input id="clientID" name="clientID" type="hidden">
+							<div class="col-md-2">
+							<div class="form-group has-feedback">
+								<div id="select_box">
+									<label>Zone<span style="color:red;"> * </span></label>
+									<select required="" id="cst_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="customer_id" tabindex="-1" aria-hidden="true">
+										<option selected="" disabled="">Select Zone</option>
+										<option value="">Zone</option>
+										<option value="">Zone</option>
+										<option value="">Zone</option>
+									</select>
 								</div>
+							</div>
 							</div>
 							<div class="col-md-3">
 							<div class="form-group has-feedback">
 								<div id="select_box">
-									<label>Client<span style="color:red;"> * </span></label>
+									<label>Area<span style="color:red;"> * </span></label>
 									<select required="" id="cst_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="customer_id" tabindex="-1" aria-hidden="true">
-										<option selected="" disabled="">---</option>
-										<option value="">Clint</option>
-										<option value="">Clint</option>
-										<option value="">Clint</option>
+										<option selected="" disabled="">Select Area</option>
+										<option value="">Gulshan</option>
+										<option value="">Banani</option>
+										<option value="">Mirpur</option>
 									</select>
 								</div>
 							</div>
 							</div>
-							<div class="col-md-3">
-								<div class="form-group has-feedback">
-									<label>Sales Date<span style="color:red;"> * </span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar"></i>
-										</div>
-										<input name="salesDate" id="datepicker2" class="form-control sales_date required_fields" placeholder="YYYY-MM-DD">
-										<!-- For Limit Today:  data-provide="datepicker" data-date-end-date="0d" -->
-									</div>
+							<div class="col-md-2">
+							<div class="form-group has-feedback">
+								<div id="select_box">
+									<label>Team Leader<span style="color:red;"> * </span></label>
+									<select required="" id="cst_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="customer_id" tabindex="-1" aria-hidden="true">
+										<option selected="" disabled="">Select Team Leader</option>
+										<option value="">Team Leader 1</option>
+										<option value="">Team Leader 2</option>
+										<option value="">Team Leader 3</option>
+									</select>
 								</div>
 							</div>
+							</div>
+							<div class="col-md-2">
+							<div class="form-group has-feedback">
+								<div id="select_box">
+									<label>Team Member<span style="color:red;"> * </span></label>
+									<select required="" id="cst_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="customer_id" tabindex="-1" aria-hidden="true">
+										<option selected="" disabled="">Select Team Member</option>
+										<option value="">Team Member 1</option>
+										<option value="">Team Member 2</option>
+										<option value="">Team Member 3</option>
+									</select>
+								</div>
+							</div>
+							</div>
+
+
+
 						</div>
 						<div class="row">
 							<div class="col-md-3">
