@@ -30,100 +30,79 @@
 										<tr role="row">
 											<th style="width: 19px;" class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1"
 											 aria-sort="ascending" aria-label="SL.: activate to sort column descending">SL.</th>
+											 <th style="width: 87px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 49px;"
+											 aria-label="Client Name: activate to sort column ascending">Client Name</th>
 											<th style="width: 67px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1"
-											 aria-label="Warehouse: activate to sort column ascending">Warehouse</th>
+											 aria-label="Contact Number: activate to sort column ascending">Contact Number</th>
 											<th style="width: 67px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1"
-											 aria-label="Type: activate to sort column ascending">Type</th>
-											<th style="width: 173px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1"
-											 aria-label="Name: activate to sort column ascending">Name</th>
-											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 112px;"
-											 aria-label="Email: activate to sort column ascending">Email</th>
-											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 50px;"
-											 aria-label="Phone Number: activate to sort column ascending">Phone Number</th>
+											 aria-label="Area: activate to sort column ascending">Area</th>
+											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 87px;"
+											 aria-label="TL: activate to sort column ascending">TL</th>
+											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 87px;"
+											 aria-label="TM: activate to sort column ascending">TM</th>
+
+											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 49px;"
+											 aria-label="Pur Amount: activate to sort column ascending">Pur Amount</th>
 											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 49px;"
 											 aria-label="Due Amount: activate to sort column ascending">Due Amount</th>
 											<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 49px;"
-											 aria-label="Address: activate to sort column ascending">Address</th>
-											<th style="width: 121px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1"
-											 aria-label=": activate to sort column ascending"></th>
+											 aria-label="Action: activate to sort column ascending">Action</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
-											<td>Warehouse</td>
-											<td>Online</td>
-											<td>C Name</td>
-											<td>test@gmail.com</td>
-											<td>0171234567</td>
-											<!-- <td>0.00</td>-->
-											<td>0</td>
-											<td>
-												<p>Adderss</p>
-											</td>
-											<td nowrap=""><a href="#" class="btn btn-primary btn-xs">Edit</a>
+											<td>Client Name X</td>
+											<td>01712345678</td>
+											<td>Mirpur</td>
+											<td>TL Name</td>
+											<td>TM Name</td>
+											<td >25478</td>
+											<td class="danger">15254</td>
+											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
-											<td>Warehouse</td>
-											<td>Online</td>
-											<td>C Name</td>
-											<td>test@gmail.com</td>
-											<td>0171234567</td>
-											<!-- <td>0.00</td>-->
-											<td>0</td>
-											<td>
-												<p>Adderss</p>
-											</td>
-											<td nowrap=""><a href="#" class="btn btn-primary btn-xs">Edit</a>
+											<td>Client Name X</td>
+											<td>01712345678</td>
+											<td>Mirpur</td>
+											<td>TL Name</td>
+											<td>TM Name</td>
+											<td >25478</td>
+											<td class="succes">00000</td>
+											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
-											<td>Warehouse</td>
-											<td>Online</td>
-											<td>C Name</td>
-											<td>test@gmail.com</td>
-											<td>0171234567</td>
-											<!-- <td>0.00</td>-->
-											<td>0</td>
-											<td>
-												<p>Adderss</p>
-											</td>
-											<td nowrap=""><a href="#" class="btn btn-primary btn-xs">Edit</a>
+											<td>Client Name X</td>
+											<td>01712345678</td>
+											<td>Mirpur</td>
+											<td>TL Name</td>
+											<td>TM Name</td>
+											<td >25478</td>
+											<td class="bg-danger">15254</td>
+											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
-											<td>Warehouse</td>
-											<td>Online</td>
-											<td>C Name</td>
-											<td>test@gmail.com</td>
-											<td>0171234567</td>
-											<!-- <td>0.00</td>-->
-											<td>0</td>
-											<td>
-												<p>Adderss</p>
-											</td>
-											<td nowrap=""><a href="#" class="btn btn-primary btn-xs">Edit</a>
+											<td>Client Name X</td>
+											<td>01712345678</td>
+											<td>Mirpur</td>
+											<td>TL Name</td>
+											<td>TM Name</td>
+											<td class="success">25478</td>
+											<td>00000</td>
+											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
-										<tr role="row" class="odd">
-											<td class="sorting_1">1</td>
-											<td>Warehouse</td>
-											<td>Online</td>
-											<td>C Name</td>
-											<td>test@gmail.com</td>
-											<td>0171234567</td>
-											<!-- <td>0.00</td>-->
-											<td>0</td>
-											<td>
-												<p>Adderss</p>
-											</td>
-											<td nowrap=""><a href="#" class="btn btn-primary btn-xs">Edit</a>
-												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
-										</tr>
+
 									</tbody>
 									<tfoot>
 
