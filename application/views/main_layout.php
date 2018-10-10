@@ -10,20 +10,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Dashboard</title>
 	<link rel="shortcut icon" href="your_image_path_and_name.ico" />
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/icon.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/jqueryui.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome/css/site.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome/css/pygments.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome/css/font-awesome.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/daterangepicker/daterangepicker.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/datatables/dataTables.bootstrap.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/select2/select2.min.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/datepicker/datepicker3.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/dist/css/AdminLTE.min.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/dist/css/skins/_all-skins.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/fontawesome.css">
+	<link rel="stylesheet" href="assets/icon.css">
+	<link rel="stylesheet" href="assets/jqueryui.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/site.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/pygments.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" href="assets/plugins/datatables/dataTables.bootstrap.css">
+	<link rel="stylesheet" href="assets/plugins/select2/select2.min.css">
+	<link rel="stylesheet" href="assets/plugins/datepicker/datepicker3.css">
+	<link rel="stylesheet" href="assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+	<link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="assets/dist/css/skins/_all-skins.min.css">
 	<style type="text/css">
 		.sidebar-menu li {
 			border-bottom: 1px solid #eee;
@@ -197,7 +197,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</span>
 							</a>
 							<ul class="treeview-menu">
-								<li><a href="<?php echo site_url('sales/add_new_sale');?>"><i class="fa fa-circle-o"></i> Add New Sale</a></li>
+								<li><a href="<?php echo site_url('add_new_sale');?>"><i class="fa fa-circle-o"></i> Add New Sale</a></li>
 								<li><a href="<?php echo site_url('today_sale');?>"><i class="fa fa-circle-o"></i> Today Sale</a></li>
 								<li><a href="<?php echo site_url('list_of_today_sale');?>"><i class="fa fa-circle-o"></i> List of Today Sale</a></li>
 								<li><a href="<?php echo site_url('return_product');?>"><i class="fa fa-circle-o"></i> Return Product</a></li>
@@ -401,6 +401,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<ul class="treeview-menu">
 								<li><a href="<?php echo site_url('add_new_client');?>"><i class="fa fa-circle-o"></i> Add New Client</a></li>
 								<li><a href="<?php echo site_url('list_of_client');?>"><i class="fa fa-circle-o"></i> List Of Client </a></li>
+								<!-- <li><a href="<?php echo site_url('client_details');?>"><i class="fa fa-circle-o"></i> List Of Client </a></li> -->
 							</ul>
 						</li>
 						<li class="treeview">
@@ -697,30 +698,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			reserved.
 		</footer>
 	</div>
-	<script src="<?php echo base_url();?>assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script src="assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
 	<!-- Bootstrap 3.3.6 -->
-	<script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<!-- SlimScroll -->
-	<script src="<?php echo base_url();?>assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 	<!-- date-range-picker -->
-	<script src="<?php echo base_url();?>assets/movement.js"></script>
-	<script src="<?php echo base_url();?>assets/plugins/daterangepicker/daterangepicker.js"></script>
+	<script src="assets/movement.js"></script>
+	<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
 	<!-- FastClick -->
-	<script src="<?php echo base_url();?>assets/plugins/fastclick/fastclick.js"></script>
+	<script src="assets/plugins/fastclick/fastclick.js"></script>
 	<!-- DataTables -->
-	<script src="<?php echo base_url();?>assets/plugins/datatables/jquery.dataTables.min.js"></script>
-	<script src="<?php echo base_url();?>assets/plugins/datatables/dataTables.bootstrap.min.js"></script>
+	<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="assets/plugins/datatables/dataTables.bootstrap.min.js"></script>
 	<!-- Select2 -->
-	<script src="<?php echo base_url();?>assets/plugins/select2/select2.full.min.js"></script>
+	<script src="assets/plugins/select2/select2.full.min.js"></script>
 	<!-- Bootstrap WYSIHTML5 -->
-	<script src="<?php echo base_url();?>assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-	<script src="<?php echo base_url();?>assets/jqueryui2.js"></script>
+	<script src="assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+	<script src="assets/jqueryui2.js"></script>
 	<!-- bootstrap datepicker -->
-	<script src="<?php echo base_url();?>assets/plugins/datepicker/bootstrap-datepicker.js"></script>
+	<script src="assets/plugins/datepicker/bootstrap-datepicker.js"></script>
 	<!-- AdminLTE App -->
-	<script src="<?php echo base_url();?>assets/dist/js/app.min.js"></script>
+	<script src="assets/dist/js/app.min.js"></script>
 	<!-- AdminLTE for demo purposes -->
-	<script src="<?php echo base_url();?>assets/dist/js/demo.js"></script>
+	<script src="assets/dist/js/demo.js"></script>
 	<script>
 		function updateClock() {
 			var currentTime = new Date();

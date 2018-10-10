@@ -16,4 +16,10 @@ class Client extends CI_Controller {
         $data['admin_main_content']=$this->load->view('pages/client/list_of_client','',true);
 		$this->load->view('main_layout',$data);
 	}
+	public function client_details()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/client/client_details','',true);
+		$this->load->view('main_layout',$data);
+	}
 }

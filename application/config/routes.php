@@ -66,6 +66,7 @@ $route['list_of_warehouses'] = 'delivery/list_of_warehouses';
 //Client
 $route['add_new_client'] = 'client/add_new_client';
 $route['list_of_client'] = 'client/list_of_client';
+$route['client_details'] = 'client/client_details';
 
 
 //Suppliers

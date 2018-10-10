@@ -59,7 +59,7 @@
 											<td>TM Name</td>
 											<td >25478</td>
 											<td class="danger">15254</td>
-											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+											<td nowrap=""><a href="<?php echo site_url('client_details');?>" class="btn btn-success btn-xs">View</a>
 												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
@@ -72,7 +72,7 @@
 											<td>TM Name</td>
 											<td >25478</td>
 											<td class="succes">00000</td>
-											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+											<td nowrap=""><a href="<?php echo site_url('client_details');?>" class="btn btn-success btn-xs">View</a>
 												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
@@ -85,7 +85,7 @@
 											<td>TM Name</td>
 											<td >25478</td>
 											<td class="bg-danger">15254</td>
-											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+											<td nowrap=""><a href="<?php echo site_url('client_details');?>" class="btn btn-success btn-xs">View</a>
 												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>
@@ -98,7 +98,7 @@
 											<td>TM Name</td>
 											<td class="success">25478</td>
 											<td>00000</td>
-											<td nowrap=""><a href="#" class="btn btn-success btn-xs">View</a>
+											<td nowrap=""><a href="<?php echo site_url('client_details');?>" class="btn btn-success btn-xs">View</a>
 												<a href="#" class="btn btn-primary btn-xs">Edit</a>
 												<a onclick="return checkconfirm()" href="#" class="btn btn-danger btn-xs">Delete</a></td>
 										</tr>

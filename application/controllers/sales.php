@@ -11,6 +11,7 @@ class Sales extends CI_Controller {
         $data['admin_main_content']=$this->load->view('pages/sales/add_new_sales','',true);
         $this->load->view('main_layout',$data);
 	}
+
 	public function today_sale()
 	{
 		$data=array();
