@@ -35,7 +35,61 @@ class Logistics extends CI_Controller {
         $data['admin_main_content']=$this->load->view('pages/logistes/today_voucher_list','',true);
         $this->load->view('main_layout',$data);
 	}
-	
+
+	//client div
+	public function add_new_div()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/div/add_new_div','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_div()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/div/list_of_div','',true);
+        $this->load->view('main_layout',$data);
+	}
+
+	//zone
+	public function add_new_zone()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/zone/add_new_zone','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_zone()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/zone/list_of_zone','',true);
+        $this->load->view('main_layout',$data);
+	}
+
+	//team leader
+	public function add_new_team_leader()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/teamleader/add_new_team_leader','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_team_leader()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/teamleader/list_of_team_leader','',true);
+        $this->load->view('main_layout',$data);
+	}
+	//team member
+	public function add_new_team_member()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/TeamMember/add_new_team_member','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_team_member()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/TeamMember/list_of_team_member','',true);
+        $this->load->view('main_layout',$data);
+	}
 
 
 }

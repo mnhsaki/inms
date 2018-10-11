@@ -22,11 +22,25 @@ $route['add_new_invoice'] = 'invoice/add_new_invoice';
 $route['list_of_invoice'] = 'invoice/list_of_invoice';
 
 //Logistics
-$route['create_delivery_voucher'] = 'logistics/create_delivery_voucher';
-$route['today_delivery_list'] = 'logistics/today_delivery_list';
-$route['delivery_voucher_list'] = 'logistics/delivery_voucher_list';
-$route['today_receive_list'] = 'logistics/today_receive_list';
-$route['today_voucher_list'] = 'logistics/today_voucher_list';
+// $route['create_delivery_voucher'] = 'logistics/create_delivery_voucher';
+// $route['today_delivery_list'] = 'logistics/today_delivery_list';
+// $route['delivery_voucher_list'] = 'logistics/delivery_voucher_list';
+// $route['today_receive_list'] = 'logistics/today_receive_list';
+// $route['today_voucher_list'] = 'logistics/today_voucher_list';
+
+//div
+$route['add_new_div'] = 'logistics/add_new_div';
+$route['list_of_div'] = 'logistics/list_of_div';
+//zone
+$route['add_new_zone'] = 'logistics/add_new_zone';
+$route['list_of_zone'] = 'logistics/list_of_zone';
+//team leader
+$route['add_new_team_leader'] = 'logistics/add_new_team_leader';
+$route['list_of_team_leader'] = 'logistics/list_of_team_leader';
+//team member
+$route['add_new_team_member'] = 'logistics/add_new_team_member';
+$route['list_of_team_member'] = 'logistics/list_of_team_member';
+
 
 
 //Product

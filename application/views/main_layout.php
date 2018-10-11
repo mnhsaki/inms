@@ -250,9 +250,45 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li class="treeview">
 							<a href="#">
 								<i class="fa fa-folder"></i> <span>Logistics</span>
-								<span class="pull-right-container" style="padding-right:15px;">
-									<small class="label pull-right bg-blue">10</small>
+								<span class="pull-right-container">
+									<i class="fa fa-angle-left pull-right"></i>
 								</span>
+							</a>
+							<ul class="treeview-menu" style="display: none;">
+								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Div<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_div');?>"><i class="fa fa-circle-o"></i>Add New Div</a></li>
+										<li><a href="<?php echo site_url('list_of_div');?>"><i class="fa fa-circle-o"></i>List of Div</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Zone<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_zone');?>"><i class="fa fa-circle-o"></i>Add New Zone</a></li>
+										<li><a href="<?php echo site_url('list_of_zone');?>"><i class="fa fa-circle-o"></i>List of Zone</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Team Leader<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_team_leader');?>"><i class="fa fa-circle-o"></i>Add New Team Leader</a></li>
+										<li><a href="<?php echo site_url('list_of_team_leader');?>"><i class="fa fa-circle-o"></i>List of Leam Leader</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Team Member<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_team_member');?>"><i class="fa fa-circle-o"></i>Add New Team Member</a></li>
+										<li><a href="<?php echo site_url('list_of_team_member');?>"><i class="fa fa-circle-o"></i>List of Leam Member</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- <li class="treeview">
+							<a href="#">
+								<i class="fa fa-folder"></i> <span>Logistics</span>
+
 								<span class="pull-right-container">
 									<i class="fa fa-angle-left pull-right"></i>
 								</span>
@@ -265,8 +301,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										List</a></li>
 								<li><a href="<?php echo site_url('today_receive_list');?>"><i class="fa fa-circle-o"></i> Today Receive List</a></li>
 								<li><a href="<?php echo site_url('today_voucher_list');?>"><i class="fa fa-circle-o"></i> Today Voucher List</a></li>
+								<li><a href="<?php echo site_url('create_div');?>"><i class="fa fa-circle-o"></i>Create Div</a></li>
+								<li><a href="<?php echo site_url('create_Zone');?>"><i class="fa fa-circle-o"></i>Create Zone</a></li>
+								<li><a href="<?php echo site_url('create_team_leader');?>"><i class="fa fa-circle-o"></i>Team Leader</a></li>
+								<li><a href="<?php echo site_url('create_team_member');?>"><i class="fa fa-circle-o"></i>Team Member</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="treeview">
 							<a href="#">
 								<i class="fa fa-folder"></i> <span>Delivery</span>
@@ -290,6 +330,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<i class="fa fa-folder"></i> <span>Products</span>
 								<span class="pull-right-container">
 									<i class="fa fa-angle-left pull-right"></i>
+									<span class="pull-right-container" style="padding-right:15px;">
+									<small class="label pull-right bg-blue">10</small>
+								</span>
 								</span>
 							</a>
 							<ul class="treeview-menu">
