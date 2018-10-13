@@ -1,7 +1,7 @@
 <section class="content">
 	<div class="box">
 		<div class="box-header">
-			<h3 class="box-title"><b>All Team Member List</b></h3>
+			<h3 class="box-title"><b>All Team Leader List</b></h3>
 		</div>
 		<!-- /.box-header -->
 		<div class="box-body">
@@ -28,113 +28,97 @@
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 65px;" aria-label="Invoice No: activate to sort column ascending">ID</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-label="Client Name: activate to sort column ascending">Div</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 58px;" aria-label="Sales Date: activate to sort column ascending">Zone</th>
-                                    <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 39px;" aria-label="Status: activate to sort column ascending">Team Leader</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 88px;" aria-label="Payment Terms: activate to sort column ascending">Target</th>
-									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 31px;" aria-label="Net Total: activate to sort column ascending">Achievement</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Net Total: activate to sort column ascending">Achievement</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Due Amount: activate to sort column ascending">Due Amount</th>
-									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Due Amount: activate to sort column ascending">Client</th>
-
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 39px;" aria-label="Status: activate to sort column ascending">Team Member</th>
 									<th style="width: 208px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending">Action</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr role="row" class="odd">
-                                    <td class="sorting_1">Team Member Name</td>
+                                    <td class="sorting_1">Team Leader Name</td>
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
-									<td>TL Name</td>
+									<td>100,000</td>
 									<td>95,000</td>
 									<td>0.00</td>
-									<td>2300</td>
 									<td>23</td>
                                     <td nowrap="">
 										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
+
 										<a style="margin-right: 5px;" href="#" onclick="return confirm('Are You sure, Your want to Cancel This!')" class="btn btn-primary btn-xs pull-left"><i class="fa fa-remove"></i>&nbsp;&nbsp;Cancel</a>
 										 <a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;Approved</a>
 									</td>
 								</tr>
 								<tr role="row" class="even">
-                                <td class="sorting_1">Team Member Name</td>
-									<td nowrap="">TL-5088691</td>
+                                    <td class="sorting_1">Team Leader Name</td>
+                                    <td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
-									<td>TL Name</td>
+									<td>100,000</td>
 									<td>95,000</td>
-									<td>0.00</td>
-									<td>23000</td>
-									<td>29</td>
+									<td style="color:red;" nowrap="">
+									15000 </td>
+									<td>33</td>
                                     <td nowrap="">
 										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
+
+
 										<a style="margin-right: 5px;" href="#" class="btn  btn-xs btn-default pull-left"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a>
 										<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</a>
 									</td>
 								</tr>
 								<tr role="row" class="odd">
-                                    <td class="sorting_1">Team Member Name</td>
+                                    <td class="sorting_1">Team Leader Name</td>
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
-									<td>TL Name</td>
+									<td>100,000</td>
 									<td>95,000</td>
 									<td>0.00</td>
-									<td>2300</td>
 									<td>23</td>
                                     <td nowrap="">
 										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
+
 										<a style="margin-right: 5px;" href="#" onclick="return confirm('Are You sure, Your want to Cancel This!')" class="btn btn-primary btn-xs pull-left"><i class="fa fa-remove"></i>&nbsp;&nbsp;Cancel</a>
 										 <a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;Approved</a>
 									</td>
 								</tr>
 								<tr role="row" class="even">
-                                <td class="sorting_1">Team Member Name</td>
-									<td nowrap="">TL-5088691</td>
+                                    <td class="sorting_1">Team Leader Name</td>
+                                    <td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
-									<td>TL Name</td>
+									<td>100,000</td>
 									<td>95,000</td>
-									<td>0.00</td>
-									<td>23000</td>
-									<td>29</td>
+									<td style="color:red;" nowrap="">
+									15000 </td>
+									<td>33</td>
                                     <td nowrap="">
 										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
-										<a style="margin-right: 5px;" href="#" class="btn  btn-xs btn-default pull-left"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a>
-										<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</a>
-									</td>
-								</tr>
-								<tr role="row" class="odd">
-                                    <td class="sorting_1">Team Member Name</td>
-									<td nowrap="">TL-5088691</td>
-									<td>Div name</td>
-									<td>Zone Nmae</td>
-									<td>TL Name</td>
-									<td>95,000</td>
-									<td>0.00</td>
-									<td>2300</td>
-									<td>23</td>
-                                    <td nowrap="">
-										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
-										<a style="margin-right: 5px;" href="#" onclick="return confirm('Are You sure, Your want to Cancel This!')" class="btn btn-primary btn-xs pull-left"><i class="fa fa-remove"></i>&nbsp;&nbsp;Cancel</a>
-										 <a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;Approved</a>
-									</td>
-								</tr>
-								<tr role="row" class="even">
-                                <td class="sorting_1">Team Member Name</td>
-									<td nowrap="">TL-5088691</td>
-									<td>Div name</td>
-									<td>Zone Nmae</td>
-									<td>TL Name</td>
-									<td>95,000</td>
-									<td>0.00</td>
-									<td>23000</td>
-									<td>29</td>
-                                    <td nowrap="">
-										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
+
+
 										<a style="margin-right: 5px;" href="#" class="btn  btn-xs btn-default pull-left"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a>
 										<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</a>
 									</td>
 								</tr>
 
+								<tr role="row" class="odd">
+									<td class="sorting_1">Shikdar &amp; Sons</td>
+									<td nowrap="">SS-5088691</td>
+									<td>Customer 1</td>
+									<td>2018-04-07</td>
+									<td>bKash</td>
+									<td>0</td>
+									<td>0</td>
+									<td style="color:red;" nowrap="">
+										Exchange. </td>
+									<td nowrap="">
+										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
+									</td>
+								</tr>
 							</tbody>
 							<tfoot>
 
