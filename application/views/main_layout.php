@@ -270,6 +270,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</ul>
 								</li>
 								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Area<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_area');?>"><i class="fa fa-circle-o"></i>Add New Area</a></li>
+										<li><a href="<?php echo site_url('list_of_area');?>"><i class="fa fa-circle-o"></i>List of Area</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
 									<a href="#"><i class="fa fa-circle-o"></i>Team Leader<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
 									<ul class="treeview-menu" style="display: none;">
 										<li><a href="<?php echo site_url('add_new_team_leader');?>"><i class="fa fa-circle-o"></i>Add New Team Leader</a></li>

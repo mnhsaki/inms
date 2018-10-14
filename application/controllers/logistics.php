@@ -63,6 +63,19 @@ class Logistics extends CI_Controller {
         $data['admin_main_content']=$this->load->view('pages/logistes/zone/list_of_zone','',true);
         $this->load->view('main_layout',$data);
 	}
+	//Area
+	public function add_new_area()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/area/add_new_area','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_area()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/area/list_of_area','',true);
+        $this->load->view('main_layout',$data);
+	}
 
 	//team leader
 	public function add_new_team_leader()

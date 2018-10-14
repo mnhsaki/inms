@@ -29,7 +29,8 @@
 									<thead>
 										<tr role="row">
 											<th style="width: 19px;" class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="SL.: activate to sort column descending">SL.</th>
-											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
+											<th style="width: 190px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
+											<th style="width: 190px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div ID</th>
 											<th style="width: 54px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending">Action</th>
 										</tr>
 									</thead>
@@ -37,6 +38,7 @@
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 1</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">D4685</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>
 												<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left">Delete</a>
@@ -45,6 +47,7 @@
 										<tr role="row" class="odd">
 											<td class="sorting_1">2</td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 2</a></td>
+											<td><a href="#" onclick="" data-toggle="modal" data-target="">D4685</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>
 												<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left">Delete</a>
@@ -53,6 +56,7 @@
 										<tr role="row" class="odd">
 											<td class="sorting_1">3</td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 3</a></td>
+											<td><a href="#" onclick="" data-toggle="modal" data-target="">D4685</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>
 												<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left">Delete</a>

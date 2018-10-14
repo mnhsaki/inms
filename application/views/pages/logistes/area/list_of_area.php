@@ -3,7 +3,7 @@
 		<div class="col-md-12">
 			<div class="box">
 				<div class="box-header">
-					<h3 class="box-title"><b>Zone List</b></h3>
+					<h3 class="box-title"><b>Area List</b></h3>
 				</div>
 				<div class="box-body">
 					<div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
@@ -17,10 +17,10 @@
 										</select> entries</label></div>
 							</div>
 							<div class="col-sm-5">
-								<div id="" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="Zone Name" aria-controls="example1"></label></div>
+								<div id="" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="area Name" aria-controls="example1"></label></div>
                             </div>
                             <div class="col-xs-1">
-                                <a href="add_new_zone"><button type="submit" class="btn btn-success btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;&nbsp;New Zone</button></a>
+                                <a href="add_new_area"><button type="submit" class="btn btn-success btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;&nbsp;New Area</button></a>
                             </div>
 						</div>
 						<div class="row">
@@ -29,17 +29,19 @@
 									<thead>
 										<tr role="row">
 											<th style="width: 19px;" class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="SL.: activate to sort column descending">SL.</th>
-											<th style="width: 190px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Zone Name</th>
-											<th style="width: 190px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Zone ID</th>
-											<th style="width: 190px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
+											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area Name</th>
+											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area ID</th>
+											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Zone Name</th>
+											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
 											<th style="width: 54px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending">Action</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr role="row" class="odd">
 											<td class="sorting_1">1</td>
-											<td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 1</a></td>
-                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Z25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">area 1</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">A25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 1</a></td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 1</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>
@@ -48,8 +50,9 @@
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1">2</td>
-											<td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 1</a></td>
-                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Z25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">area 2</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">A25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 2</a></td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 2</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>
@@ -58,8 +61,9 @@
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1">3</td>
-											<td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 1</a></td>
-                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Z25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">area 3</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">A25413</a></td>
+                                            <td><a href="#" onclick="" data-toggle="modal" data-target="">Zone 3</a></td>
                                             <td><a href="#" onclick="" data-toggle="modal" data-target="">Div 3</a></td>
 											<td>
 												<a style="margin-right: 5px;" href="#" class="btn btn-primary btn-xs pull-left">Edit</a>

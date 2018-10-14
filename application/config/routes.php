@@ -34,6 +34,9 @@ $route['list_of_div'] = 'logistics/list_of_div';
 //zone
 $route['add_new_zone'] = 'logistics/add_new_zone';
 $route['list_of_zone'] = 'logistics/list_of_zone';
+//Area
+$route['add_new_area'] = 'logistics/add_new_area';
+$route['list_of_area'] = 'logistics/list_of_area';
 //team leader
 $route['add_new_team_leader'] = 'logistics/add_new_team_leader';
 $route['list_of_team_leader'] = 'logistics/list_of_team_leader';
