@@ -17,7 +17,7 @@
 										</select> entries</label></div>
 							</div>
 							<div class="col-sm-5">
-								<div id="" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="area Name" aria-controls="example1"></label></div>
+								<div id="" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="Area Name" aria-controls="example1"></label></div>
                             </div>
                             <div class="col-xs-1">
                                 <a href="add_new_area"><button type="submit" class="btn btn-success btn-sm pull-right"><i class="fa fa-plus"></i>&nbsp;&nbsp;New Area</button></a>
@@ -29,10 +29,10 @@
 									<thead>
 										<tr role="row">
 											<th style="width: 19px;" class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="SL.: activate to sort column descending">SL.</th>
-											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area Name</th>
-											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area ID</th>
-											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Zone Name</th>
-											<th style="width: 290px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
+											<th style="width: 150px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area Name</th>
+											<th style="width: 150px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Area ID</th>
+											<th style="width: 150px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Zone Name</th>
+											<th style="width: 150px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Product Name: activate to sort column ascending">Div Name</th>
 											<th style="width: 54px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending">Action</th>
 										</tr>
 									</thead>
