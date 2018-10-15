@@ -39,6 +39,18 @@
 						</div>
 						<div class="form-group has-feedback">
 							<div id="select_box">
+								<label>Area<span style="color:red;"> * </span></label>
+								<select required="" id="area" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="zone_id"
+								 tabindex="-1" aria-hidden="true">
+									<option selected="" disabled="">Select Area</option>
+									<option value="">Area</option>
+									<option value="">Area</option>
+									<option value="">Area</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group has-feedback">
+							<div id="select_box">
 								<label>Team Leader<span style="color:red;"> * </span></label>
 								<select required="" id="TeamLeader" class="form-control select2 select2-hidden-accessible" style="width: 100%;" name="tlname"
 								 tabindex="-1" aria-hidden="true">

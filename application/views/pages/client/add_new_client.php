@@ -69,6 +69,10 @@
 									<input value="" name="cnumber" class="form-control" placeholder="Client Phone Number">
 								</div>
 								<div class="form-group has-feedback">
+									<label>NID</label>
+									<input value="" name="cnid" class="form-control" placeholder="NID Number">
+								</div>
+								<div class="form-group has-feedback">
 									<label>Payment Terms</label>
 									<input value="" name="payTerms" class="form-control" placeholder="pay Terms">
 
@@ -77,6 +81,10 @@
 									<label>Client Address<span style="color:red;"> * </span></label>
 									<textarea class="form-control" rows="" id="clientaddress" placeholder="Client Address"></textarea>
 								</div>
+								<div class="form-group has-feedback">
+							<label>Image<span style="color:red;"></span></label>
+							<input type="file" name="tlimage">
+						</div>
 
 							</div>
 

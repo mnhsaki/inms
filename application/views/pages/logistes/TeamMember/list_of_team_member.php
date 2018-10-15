@@ -24,13 +24,14 @@
 						<table id="" class="table table-bordered table-hover dataTable no-footer" role="grid" aria-describedby="example1_info">
 							<thead>
 								<tr role="row">
-									<th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-sort="ascending" aria-label="Company: activate to sort column descending">Name</th>
-									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 65px;" aria-label="Invoice No: activate to sort column ascending">ID</th>
+									<th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-sort="ascending" aria-label="Company: activate to sort column descending">T Member Name</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 55px;" aria-label="Invoice No: activate to sort column ascending">ID</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-label="Client Name: activate to sort column ascending">Div</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 58px;" aria-label="Sales Date: activate to sort column ascending">Zone</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 58px;" aria-label="Sales Date: activate to sort column ascending">Area</th>
                                     <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 39px;" aria-label="Status: activate to sort column ascending">Team Leader</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 88px;" aria-label="Payment Terms: activate to sort column ascending">Target</th>
-									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 31px;" aria-label="Net Total: activate to sort column ascending">Achievement</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 31px;" aria-label="Net Total: activate to sort column ascending">Achieve</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Due Amount: activate to sort column ascending">Due Amount</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Due Amount: activate to sort column ascending">Client</th>
 
@@ -43,6 +44,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -59,6 +61,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -75,6 +78,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -91,6 +95,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -107,6 +112,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -123,6 +129,7 @@
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
 									<td>Zone Nmae</td>
+									<td>Area Nmae</td>
 									<td>TL Name</td>
 									<td>95,000</td>
 									<td>0.00</td>

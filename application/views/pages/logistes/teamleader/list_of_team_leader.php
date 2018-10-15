@@ -24,12 +24,13 @@
 						<table id="" class="table table-bordered table-hover dataTable no-footer" role="grid" aria-describedby="example1_info">
 							<thead>
 								<tr role="row">
-									<th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-sort="ascending" aria-label="Company: activate to sort column descending">Name</th>
+									<th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-sort="ascending" aria-label="Company: activate to sort column descending">T Leader Name</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 65px;" aria-label="Invoice No: activate to sort column ascending">ID</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 100px;" aria-label="Client Name: activate to sort column ascending">Div</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 58px;" aria-label="Sales Date: activate to sort column ascending">Zone</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 58px;" aria-label="Sales Date: activate to sort column ascending">Area</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 88px;" aria-label="Payment Terms: activate to sort column ascending">Target</th>
-									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Net Total: activate to sort column ascending">Achievement</th>
+									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Net Total: activate to sort column ascending">Achieve</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 41px;" aria-label="Due Amount: activate to sort column ascending">Due Amount</th>
 									<th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 39px;" aria-label="Status: activate to sort column ascending">Team Member</th>
 									<th style="width: 208px;" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending">Action</th>
@@ -40,7 +41,8 @@
                                     <td class="sorting_1">Team Leader Name</td>
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
-									<td>Zone Nmae</td>
+									<td>Zone Name</td>
+									<td>Area Name</td>
 									<td>100,000</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -56,7 +58,8 @@
                                     <td class="sorting_1">Team Leader Name</td>
                                     <td nowrap="">TL-5088691</td>
 									<td>Div name</td>
-									<td>Zone Nmae</td>
+									<td>Zone Name</td>
+									<td>Area Name</td>
 									<td>100,000</td>
 									<td>95,000</td>
 									<td style="color:red;" nowrap="">
@@ -74,7 +77,8 @@
                                     <td class="sorting_1">Team Leader Name</td>
 									<td nowrap="">TL-5088691</td>
 									<td>Div name</td>
-									<td>Zone Nmae</td>
+									<td>Zone Name</td>
+									<td>Area Name</td>
 									<td>100,000</td>
 									<td>95,000</td>
 									<td>0.00</td>
@@ -90,7 +94,8 @@
                                     <td class="sorting_1">Team Leader Name</td>
                                     <td nowrap="">TL-5088691</td>
 									<td>Div name</td>
-									<td>Zone Nmae</td>
+									<td>Zone Name</td>
+									<td>Area Name</td>
 									<td>100,000</td>
 									<td>95,000</td>
 									<td style="color:red;" nowrap="">
@@ -102,21 +107,6 @@
 
 										<a style="margin-right: 5px;" href="#" class="btn  btn-xs btn-default pull-left"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a>
 										<a href="#" onclick="return confirm('Are You sure, Your want to delete This!')" class="btn btn-danger btn-xs pull-left"><i class="fa fa-trash"></i>&nbsp;&nbsp;Delete</a>
-									</td>
-								</tr>
-
-								<tr role="row" class="odd">
-									<td class="sorting_1">Shikdar &amp; Sons</td>
-									<td nowrap="">SS-5088691</td>
-									<td>Customer 1</td>
-									<td>2018-04-07</td>
-									<td>bKash</td>
-									<td>0</td>
-									<td>0</td>
-									<td style="color:red;" nowrap="">
-										Exchange. </td>
-									<td nowrap="">
-										<a style="margin-right: 5px;" href="#" class="btn btn-success btn-xs pull-left"><i class="fa fa-share"></i>&nbsp;&nbsp;View</a>
 									</td>
 								</tr>
 							</tbody>
