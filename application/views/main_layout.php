@@ -142,16 +142,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</li>
 						<li class="dropdown user user-menu">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								<span class="" style=" text-transform: uppercase;"><i class="fa fa-user" aria-hidden="true"></i>Demo</span>
+								<span class="" style=" text-transform: uppercase;"><i class="fa fa-user" aria-hidden="true"></i> Admin</span>
 							</a>
 							<ul class="dropdown-menu">
 								<li class="user-footer">
 									<div class="pull-left">
-										<a style=" text-transform: uppercase;" href="settings/profile" class="btn btn-default btn-flat"><i class="fa fa-user"
+										<a style=" text-transform: uppercase;" href="<?php echo site_url("Profile")?>" class="btn btn-default btn-flat"><i class="fa fa-user"
 											 aria-hidden="true"></i>&nbsp;Profile</a>
 									</div>
 									<div class="pull-right">
-										<a style=" text-transform: uppercase;" href="login/logOut" class="btn btn-default btn-flat"><i class="fa fa-sign-out"
+										<a style=" text-transform: uppercase;" href="<?php echo site_url("login")?>" class="btn btn-default btn-flat"><i class="fa fa-sign-out"
 											 aria-hidden="true"></i> &nbsp;&nbsp;Sign out</a>
 									</div>
 								</li>
@@ -277,6 +277,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</ul>
 								</li>
 								<li class="treeview">
+									<a href="#"><i class="fa fa-circle-o"></i>Sales Manager<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_sales_manager');?>"><i class="fa fa-circle-o"></i>Add New Sales Maneger</a></li>
+										<li><a href="<?php echo site_url('list_of_sales_manager');?>"><i class="fa fa-circle-o"></i>List of Sales Maneger</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
 									<a href="#"><i class="fa fa-circle-o"></i>Team Leader<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
 									<ul class="treeview-menu" style="display: none;">
 										<li><a href="<?php echo site_url('add_new_team_leader');?>"><i class="fa fa-circle-o"></i>Add New Team Leader</a></li>
@@ -327,8 +334,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<ul class="treeview-menu">
 								<li><a href="<?php echo site_url('create_delivery');?>"><i class="fa fa-circle-o"></i> Create Delivery</a></li>
 								<li><a href="<?php echo site_url('list_of_delivery');?>"><i class="fa fa-circle-o"></i> List of Delivery </a></li>
-								<li><a href="<?php echo site_url('create_delivery_warehouses');?>"><i class="fa fa-circle-o"></i> Create
-										Delivery Warehouses</a></li>
+								<li><a href="<?php echo site_url('create_delivery_warehouses');?>"><i class="fa fa-circle-o"></i> Create Delivery Warehouses</a></li>
 								<li><a href="<?php echo site_url('list_of_warehouses');?>"><i class="fa fa-circle-o"></i> List of Warehouses</a></li>
 							</ul>
 						</li>
@@ -338,8 +344,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<span class="pull-right-container">
 									<i class="fa fa-angle-left pull-right"></i>
 									<span class="pull-right-container" style="padding-right:15px;">
-									<small class="label pull-right bg-blue">10</small>
-								</span>
+										<small class="label pull-right bg-blue">10</small>
+									</span>
 								</span>
 							</a>
 							<ul class="treeview-menu">

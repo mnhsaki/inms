@@ -77,6 +77,19 @@ class Logistics extends CI_Controller {
         $this->load->view('main_layout',$data);
 	}
 
+	//Sales Manager
+	public function add_new_sales_manager()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/SalesManager/add_new_sales_manager','',true);
+        $this->load->view('main_layout',$data);
+	}
+	public function list_of_sales_manager()
+	{
+		$data=array();
+        $data['admin_main_content']=$this->load->view('pages/logistes/SalesManager/list_of_sales_manager','',true);
+        $this->load->view('main_layout',$data);
+	}
 	//team leader
 	public function add_new_team_leader()
 	{

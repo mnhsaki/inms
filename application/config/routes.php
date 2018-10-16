@@ -10,6 +10,9 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['dashbord'] = 'welcome';
 
+//settings
+$route['Profile'] = 'settings/profile';
+
 //sales
 $route['add_new_sale'] = 'sales/add_new_sale';
 $route['today_sale'] = 'sales/today_sale';
@@ -37,6 +40,9 @@ $route['list_of_zone'] = 'logistics/list_of_zone';
 //Area
 $route['add_new_area'] = 'logistics/add_new_area';
 $route['list_of_area'] = 'logistics/list_of_area';
+//Sales Manager
+$route['add_new_sales_manager'] = 'logistics/add_new_sales_manager';
+$route['list_of_sales_manager'] = 'logistics/list_of_sales_manager';
 //team leader
 $route['add_new_team_leader'] = 'logistics/add_new_team_leader';
 $route['list_of_team_leader'] = 'logistics/list_of_team_leader';
