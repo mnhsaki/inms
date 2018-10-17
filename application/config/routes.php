@@ -11,7 +11,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['dashbord'] = 'welcome';
 
 //settings
-$route['Profile'] = 'settings/profile';
+$route['profile'] = 'settings/profile';
 
 //sales
 $route['add_new_sale'] = 'sales/add_new_sale';
@@ -31,24 +31,26 @@ $route['list_of_invoice'] = 'invoice/list_of_invoice';
 // $route['today_receive_list'] = 'logistics/today_receive_list';
 // $route['today_voucher_list'] = 'logistics/today_voucher_list';
 
+
+//settings
 //div
-$route['add_new_div'] = 'logistics/add_new_div';
-$route['list_of_div'] = 'logistics/list_of_div';
+$route['add_new_div'] = 'Settings/add_new_div';
+$route['list_of_div'] = 'settings/list_of_div';
 //zone
-$route['add_new_zone'] = 'logistics/add_new_zone';
-$route['list_of_zone'] = 'logistics/list_of_zone';
+$route['add_new_zone'] = 'settings/add_new_zone';
+$route['list_of_zone'] = 'settings/list_of_zone';
 //Area
-$route['add_new_area'] = 'logistics/add_new_area';
-$route['list_of_area'] = 'logistics/list_of_area';
+$route['add_new_area'] = 'settings/add_new_area';
+$route['list_of_area'] = 'settings/list_of_area';
 //Sales Manager
-$route['add_new_sales_manager'] = 'logistics/add_new_sales_manager';
-$route['list_of_sales_manager'] = 'logistics/list_of_sales_manager';
+$route['add_new_sales_manager'] = 'settings/add_new_sales_manager';
+$route['list_of_sales_manager'] = 'settings/list_of_sales_manager';
 //team leader
-$route['add_new_team_leader'] = 'logistics/add_new_team_leader';
-$route['list_of_team_leader'] = 'logistics/list_of_team_leader';
+$route['add_new_team_leader'] = 'settings/add_new_team_leader';
+$route['list_of_team_leader'] = 'settings/list_of_team_leader';
 //team member
-$route['add_new_team_member'] = 'logistics/add_new_team_member';
-$route['list_of_team_member'] = 'logistics/list_of_team_member';
+$route['add_new_team_member'] = 'settings/add_new_team_member';
+$route['list_of_team_member'] = 'settings/list_of_team_member';
 
 
 

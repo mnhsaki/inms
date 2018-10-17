@@ -145,14 +145,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<span class="" style=" text-transform: uppercase;"><i class="fa fa-user" aria-hidden="true"></i> Admin</span>
 							</a>
 							<ul class="dropdown-menu">
+								<li class="user-header">
+									<img src="http://localhost/inms/assets/dist/img/user1-128x128.jpg" class="img-circle" alt="User Image">
+
+									<p>
+										Sikander & Sons
+										<small><strong>Admin</strong></small>
+									</p>
+								</li>
 								<li class="user-footer">
 									<div class="pull-left">
-										<a style=" text-transform: uppercase;" href="<?php echo site_url("Profile")?>" class="btn btn-default btn-flat"><i class="fa fa-user"
-											 aria-hidden="true"></i>&nbsp;Profile</a>
+										<a style=" text-transform: uppercase;" href="<?php echo site_url("profile")?>" class="btn btn-default
+											btn-flat"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Profile</a>
 									</div>
 									<div class="pull-right">
-										<a style=" text-transform: uppercase;" href="<?php echo site_url("login")?>" class="btn btn-default btn-flat"><i class="fa fa-sign-out"
-											 aria-hidden="true"></i> &nbsp;&nbsp;Sign out</a>
+										<a style=" text-transform: uppercase;" href="<?php echo site_url("login")?>" class="btn btn-default
+											btn-flat"><i class="fa fa-sign-out" aria-hidden="true"></i> &nbsp;&nbsp;Sign out</a>
 									</div>
 								</li>
 							</ul>
@@ -255,7 +263,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</span>
 							</a>
 							<ul class="treeview-menu" style="display: none;">
-								<li class="treeview">
+								<!-- <li class="treeview">
 									<a href="#"><i class="fa fa-circle-o"></i>Div<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
 									<ul class="treeview-menu" style="display: none;">
 										<li><a href="<?php echo site_url('add_new_div');?>"><i class="fa fa-circle-o"></i>Add New Div</a></li>
@@ -296,7 +304,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										<li><a href="<?php echo site_url('add_new_team_member');?>"><i class="fa fa-circle-o"></i>Add New Team Member</a></li>
 										<li><a href="<?php echo site_url('list_of_team_member');?>"><i class="fa fa-circle-o"></i>List of Leam Member</a></li>
 									</ul>
-								</li>
+								</li> -->
 							</ul>
 						</li>
 						<!-- <li class="treeview">
@@ -334,7 +342,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<ul class="treeview-menu">
 								<li><a href="<?php echo site_url('create_delivery');?>"><i class="fa fa-circle-o"></i> Create Delivery</a></li>
 								<li><a href="<?php echo site_url('list_of_delivery');?>"><i class="fa fa-circle-o"></i> List of Delivery </a></li>
-								<li><a href="<?php echo site_url('create_delivery_warehouses');?>"><i class="fa fa-circle-o"></i> Create Delivery Warehouses</a></li>
+								<li><a href="<?php echo site_url('create_delivery_warehouses');?>"><i class="fa fa-circle-o"></i> Create
+										Delivery Warehouses</a></li>
 								<li><a href="<?php echo site_url('list_of_warehouses');?>"><i class="fa fa-circle-o"></i> List of Warehouses</a></li>
 							</ul>
 						</li>
@@ -600,7 +609,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</li>
 						<li class="treeview">
 							<a href="#">
-								<i class="fa fa-folder"></i> <span>Setting</span>
+								<i class="fa fa-folder"></i> <span>Settings</span>
 								<span class="pull-right-container">
 									<i class="fa fa-angle-left pull-right"></i>
 								</span>
@@ -616,6 +625,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										<li><a href="#"><i class="fa fa-folder"></i> Date Wise Sales Report</a></li>
 										<li class="treeview"><a href="#"><i class="fa fa-folder"></i> List Of User<span class="pull-right-container"></i></span></a></li>
 										<li class="treeview"><a href="#"><i class="fa fa-folder"></i> Add new User<span class="pull-right-container"></i></span></a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Div<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_div');?>"><i class="fa fa-circle-o"></i>Add New Div</a></li>
+										<li><a href="<?php echo site_url('list_of_div');?>"><i class="fa fa-circle-o"></i>List of Div</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Zone<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_zone');?>"><i class="fa fa-circle-o"></i>Add New Zone</a></li>
+										<li><a href="<?php echo site_url('list_of_zone');?>"><i class="fa fa-circle-o"></i>List of Zone</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Area<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_area');?>"><i class="fa fa-circle-o"></i>Add New Area</a></li>
+										<li><a href="<?php echo site_url('list_of_area');?>"><i class="fa fa-circle-o"></i>List of Area</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Sales Manager<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_sales_manager');?>"><i class="fa fa-circle-o"></i>Add New Sales
+												Maneger</a></li>
+										<li><a href="<?php echo site_url('list_of_sales_manager');?>"><i class="fa fa-circle-o"></i>List of Sales
+												Maneger</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Team Leader<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_team_leader');?>"><i class="fa fa-circle-o"></i>Add New Team Leader</a></li>
+										<li><a href="<?php echo site_url('list_of_team_leader');?>"><i class="fa fa-circle-o"></i>List of Leam Leader</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#"><i class="fa fa-folder"></i>Team Member<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+									<ul class="treeview-menu" style="display: none;">
+										<li><a href="<?php echo site_url('add_new_team_member');?>"><i class="fa fa-circle-o"></i>Add New Team Member</a></li>
+										<li><a href="<?php echo site_url('list_of_team_member');?>"><i class="fa fa-circle-o"></i>List of Leam Member</a></li>
 									</ul>
 								</li>
 								<li class="treeview">
